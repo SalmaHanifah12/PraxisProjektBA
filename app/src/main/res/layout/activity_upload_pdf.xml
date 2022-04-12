@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".student.UploadPdf">
+
+
+    <EditText
+        android:id="@+id/txt_id"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:autofillHints=""
+        android:hint="Fach"
+        android:inputType=""
+        android:textSize="22sp" />
+    <EditText
+        android:id="@+id/txt_pdfName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:autofillHints="PDF Name"
+        android:layout_below="@+id/txt_id"
+        android:hint="Titel"
+        android:inputType=""
+        android:textSize="22sp" />
+
+
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_pdfName"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="UPLOAD"
+
+        android:background="@drawable/mybotton"
+        android:textColor="#FFFFFF"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".student.KlausurErgebnis">
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:id="@+id/allButton"
+        android:textColor="#ffffff"
+        android:background="@drawable/mybotton"
+        android:text="FB5"
+        >
+    </Button>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/meineButton"
+        android:background="@drawable/mybotton"
+        android:textColor="#FFFFFF"
+        android:text="Meine Ergebniss"
+        android:layout_marginLeft="90dp"
+        >
+    </Button>
+
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/allButton"
+        android:padding="10dp"></ListView>
+
+</RelativeLayout>

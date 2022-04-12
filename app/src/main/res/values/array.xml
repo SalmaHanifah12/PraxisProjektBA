@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="font_sizes">
+        <item>HöMa2</item>
+        <item>KMPS</item>
+        <item>DBWT</item>
+    </string-array>
+
+</resources>

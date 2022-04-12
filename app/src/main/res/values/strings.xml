@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PraxisProjekt</string>
+    <string name="upload">Upload</string>
+    <string name="enter_pdf_file_name">Enter PDF File Name</string>
+    <string name="fcm_token"><![CDATA[<string name=\"fcm_token\">FCM Token: %s</string>]]></string>
+    <string name="done">Done</string>
+    <string name="_5_10">5 / 10</string>
+    <string name="score">score</string>
+</resources>

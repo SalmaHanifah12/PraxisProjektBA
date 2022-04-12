@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.praxisprojekt">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".professor.klausureinsicht.EinsichtAddProfActivity" />
+        <activity android:name=".professor.klausurtermin.KlausurAddProfActivity" />
+        <activity android:name=".professor.klausureinsicht.BearbeitenEinsichtActivity" />
+
+        <service
+            android:name=".Service.MyFirebaseMessagingService"
+            android:enabled="false"
+            android:exported="false"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".professor.klausurtermin.BearbeitenSeiteActivity" />
+        <activity android:name=".professor.klausureinsicht.KlausurEinsichtActivity" />
+        <activity android:name=".professor.klausurtermin.KlausurtermineProf" />
+        <activity android:name=".professor.HomepageProfActivity" />
+        <activity android:name=".professor.ProfessorLoginActivity" />
+        <activity android:name=".student.MeineKlausurenActivity" />
+        <activity android:name=".student.UploadPdf" />
+        <activity android:name=".student.KlausurErgebnis" />
+        <activity android:name=".student.KlausurListActivity" />
+        <activity android:name=".student.HomepageStudentActivity" />
+        <activity android:name=".student.StudentLoginActivity" />
+        <activity android:name=".student.Quiz.QuizFachActivity" />
+        <activity android:name=".student.Quiz.QuizActivity" />
+        <activity android:name=".Service.FirestoreTest" />
+        <activity android:name=".student.ScoreActivity" />
+        <activity android:name=".professor.quiz.QuestionDetailsProfActivity" />
+        <activity android:name=".professor.quiz.QuestionsProfActivity" />
+        <activity android:name=".professor.quiz.QuizFachProfessorActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name=".Service.MyFirebaseInstanceIDService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".SendNotificationPack.MyFireBaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".SendNotificationPack.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

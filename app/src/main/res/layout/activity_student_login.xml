@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".student.StudentLoginActivity"
+    android:background="@drawable/homepage_background">
+
+
+
+    <EditText
+        android:id="@+id/login_matrikelnummer_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="210dp"
+        android:hint="Matrikelnummer"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:textSize="19sp"
+        android:fontFamily="@font/autour_one"
+        />
+
+    <EditText
+        android:id="@+id/login_student_pass_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_below="@+id/login_matrikelnummer_input"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp"
+        android:hint="Passwort"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:fontFamily="@font/autour_one"
+        android:textSize="19sp"
+        />
+
+
+    <Button
+        android:id="@+id/login_btn_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_student_pass_input"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Login"
+
+        android:background="@drawable/mybotton"
+        android:textColor="#FFFFFF"
+        />
+
+
+
+
+</RelativeLayout>

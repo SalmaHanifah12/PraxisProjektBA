@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "379287806143",
+    "firebase_url": "https://praxisprojekt-927dc.firebaseio.com",
+    "project_id": "praxisprojekt-927dc",
+    "storage_bucket": "praxisprojekt-927dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379287806143:android:d7f5acefabe8a8f3a4e60a",
+        "android_client_info": {
+          "package_name": "com.example.praxisprojekt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379287806143-4ojs42bs22rfv85o8ca6umfbt1qrirc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.praxisprojekt",
+            "certificate_hash": "da0e62381f027761cdd6bb5c818c4cf139d9e963"
+          }
+        },
+        {
+          "client_id": "379287806143-5iclq6ul0m486vbtp592qcorg3k6rljr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.praxisprojekt",
+            "certificate_hash": "36da0cc8259a76991b3bbbe1f62243e3c35cd0db"
+          }
+        },
+        {
+          "client_id": "379287806143-crr0n672cd2vj5cogt19duqjefj792d8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6HjOkVBGKCGtg0_C_EkuX6DSigcv-zFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379287806143-crr0n672cd2vj5cogt19duqjefj792d8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
